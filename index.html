@@ -76,6 +76,15 @@
     localStorage.setItem('analytics-consent', 'rejected');
     banner.classList.add('hidden');
   });
+
+  document.getElementById('manage-cookies').addEventListener('click', function (e) {
+  e.preventDefault();
+
+  localStorage.removeItem('analytics-consent');
+  banner.classList.remove('hidden');
+  });
+
+  
 </script>
 
 
@@ -707,9 +716,14 @@
   </a>
 </p>
 
+<p>
+  <a href="#" id="manage-cookies">Gestisci cookie</a>
+</p>
+
 <p class="copyright">
   © 2026 Recruiter CRM
 </p>
+
 
 
   </footer>
