@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alomcrm.github.io/recruiter-crm-website/sitemap.xml
