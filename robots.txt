@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alomcrm.github.io/recruiter-crm-website/sitemap.xml
+Sitemap: https://jobdeskcrm.com/sitemap.xml
