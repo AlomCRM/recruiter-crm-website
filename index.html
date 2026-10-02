@@ -172,8 +172,15 @@
         <span>Scarica la prova gratuita</span> <span>→</span>
       </a>
 
+      <!-- TEMP: store Lemon Squeezy in revisione (test mode). Per ripristinare il link di acquisto,
+           decommenta il tag <a> sotto e rimuovi/elimina il mailto subito dopo. -->
+      <!--
       <a class="btn btn-secondary" href="https://recruitercrm.lemonsqueezy.com/checkout/buy/0b182818-1d5a-47cc-9f60-563cceda6fa6" target="_blank" rel="noopener">
         <span>Acquista €79</span> <span>→</span>
+      </a>
+      -->
+      <a class="btn btn-secondary" href="mailto:alessandro.jobdesk@gmail.com?subject=Recruiter%20CRM%20-%20Richiesta%20acquisto%20licenza">
+        <span>Contattami per acquistare</span> <span>→</span>
       </a>
 
       <a class="btn btn-secondary" href="#video">
@@ -601,12 +608,21 @@
       <li>✓ Aggiornamenti del programma</li>
     </ul>
 
+    <!-- TEMP: store Lemon Squeezy in revisione (test mode). Per ripristinare il link di acquisto,
+         decommenta il tag <a> sotto e rimuovi/elimina il mailto subito dopo. -->
+    <!--
     <a
       class="btn btn-primary price-button"
       href="https://recruitercrm.lemonsqueezy.com/checkout/buy/0b182818-1d5a-47cc-9f60-563cceda6fa6"
       target="_blank"
       rel="noopener">
       <span>Acquista ora – €79</span> <span>→</span>
+    </a>
+    -->
+    <a
+      class="btn btn-primary price-button"
+      href="mailto:alessandro.jobdesk@gmail.com?subject=Recruiter%20CRM%20-%20Richiesta%20acquisto%20licenza">
+      <span>Contattami per acquistare</span> <span>→</span>
     </a>
 
     <p class="price-note">
@@ -743,6 +759,16 @@
       </p>
     </details>
 
+    <details>
+      <summary>Posso chiedere il rimborso dopo l'acquisto?</summary>
+      <p>
+        Prima di acquistare hai 14 giorni di prova gratuita per verificare che
+        il programma faccia al caso tuo, senza alcun impegno. Proprio per questo,
+        una volta completato l'acquisto e ricevuta la licenza digitale, non sono
+        previsti rimborsi: l'acquisto è da considerarsi definitivo.
+      </p>
+    </details>
+
   </div>
 
 </section>
@@ -788,7 +814,7 @@
     // Quando pubblichi una nuova versione, modifica SOLO questa riga.
 
     const DOWNLOAD_URL =
-      "https://github.com/AlomCRM/recruiter-crm-updates/releases/download/v3.3.3/Recruiter-CRM-Setup-3.3.3.exe";
+      "https://github.com/AlomCRM/recruiter-crm-updates/releases/download/v3.3.1/Recruiter-CRM-Setup-3.3.1.exe";
 
     document.querySelectorAll("[data-download-link]").forEach(link => {
       link.href = DOWNLOAD_URL;
