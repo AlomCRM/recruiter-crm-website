@@ -3,6 +3,15 @@
 <html lang="it">
 <head>
 
+  <script>
+    (function () {
+      if (location.hostname === "alomcrm.github.io") {
+        var path = location.pathname.replace(/^\/recruiter-crm-website/, "") || "/";
+        location.replace("https://jobdeskcrm.com" + path + location.search + location.hash);
+      }
+    })();
+  </script>
+
   <meta name="google-site-verification" content="_vhwmLFJ2trboIjx_2ueG4BP7_RtmbEknmteqLDcbVE" />
   
   <meta charset="utf-8">
