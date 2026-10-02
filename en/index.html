@@ -158,8 +158,15 @@
         <span>Download free trial</span> <span>→</span>
       </a>
 
+      <!-- TEMP: Lemon Squeezy store under review (test mode). To restore the purchase link,
+           uncomment the <a> tag below and remove the mailto one right after it. -->
+      <!--
       <a class="btn btn-secondary" href="https://recruitercrm.lemonsqueezy.com/checkout/buy/0b182818-1d5a-47cc-9f60-563cceda6fa6" target="_blank" rel="noopener">
         <span>Buy €79</span> <span>→</span>
+      </a>
+      -->
+      <a class="btn btn-secondary" href="mailto:alessandro.jobdesk@gmail.com?subject=Recruiter%20CRM%20-%20Purchase%20request">
+        <span>Contact me to purchase</span> <span>→</span>
       </a>
 
       <a class="btn btn-secondary" href="#video">
@@ -409,7 +416,7 @@
 
   <p>Check the user manual to discover every feature of the program, from installation to candidate management, backups and updates.</p>
 
-  <a href="/Recruiter-CRM-Manual.pdf" target="_blank" rel="noopener">Read the manual</a>
+  <a href="/Recruiter-CRM-Manuale.pdf" target="_blank" rel="noopener">Read the manual</a>
 
 </section>
 
@@ -515,12 +522,21 @@
       <li>✓ Program updates</li>
     </ul>
 
+    <!-- TEMP: Lemon Squeezy store under review (test mode). To restore the purchase link,
+         uncomment the <a> tag below and remove the mailto one right after it. -->
+    <!--
     <a
       class="btn btn-primary price-button"
       href="https://recruitercrm.lemonsqueezy.com/checkout/buy/0b182818-1d5a-47cc-9f60-563cceda6fa6"
       target="_blank"
       rel="noopener">
       <span>Buy now – €79</span> <span>→</span>
+    </a>
+    -->
+    <a
+      class="btn btn-primary price-button"
+      href="mailto:alessandro.jobdesk@gmail.com?subject=Recruiter%20CRM%20-%20Purchase%20request">
+      <span>Contact me to purchase</span> <span>→</span>
     </a>
 
     <p class="price-note">One-time payment. No subscription.</p>
@@ -626,6 +642,16 @@
       <p>After purchase you'll receive the license key by email: paste it into the program on first launch to activate it.</p>
     </details>
 
+    <details>
+      <summary>Can I get a refund after purchasing?</summary>
+      <p>
+        Before buying, you get 14 days of free trial to check that the software fits
+        your needs, with no commitment. Because of this, once the purchase is
+        completed and the digital license has been delivered, refunds are not
+        available: the purchase is considered final.
+      </p>
+    </details>
+
   </div>
 
 </section>
@@ -669,7 +695,7 @@
     // Quando pubblichi una nuova versione, modifica SOLO questa riga.
 
     const DOWNLOAD_URL =
-      "https://github.com/AlomCRM/recruiter-crm-updates/releases/download/v3.3.3/Recruiter-CRM-Setup-3.3.3.exe";
+      "https://github.com/AlomCRM/recruiter-crm-updates/releases/download/v3.3.1/Recruiter-CRM-Setup-3.3.1.exe";
 
     document.querySelectorAll("[data-download-link]").forEach(link => {
       link.href = DOWNLOAD_URL;
