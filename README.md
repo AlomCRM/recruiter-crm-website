@@ -4,7 +4,7 @@ Questo repository contiene la pagina vetrina di Recruiter CRM.
 
 ## Struttura
 
-- `index.html` —  pagina principale
+- `index.html` — pagina principale
 - `style.css` — grafica
 - `assets/` — video e immagini
 
