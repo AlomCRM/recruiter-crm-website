@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="it">
+<head>
+<script>(function(){if(location.hostname==="alomcrm.github.io"){var path=location.pathname.replace(/^\/recruiter-crm-website/,"")||"/";location.replace("https://jobdeskcrm.com"+path+location.search+location.hash);}})();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gestire i candidati con Excel: modello gratuito per recruiter | Recruiter CRM</title>
+<meta name="description" content="Come tenere traccia di candidati, colloqui e richiami con Excel: struttura, formule utili, errori da evitare e un modello gratuito scaricabile. Quando Excel non basta più.">
+<meta name="theme-color" content="#0b172a">
+<link rel="canonical" href="https://jobdeskcrm.com/guide/gestire-candidati-con-excel/">
+<link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/gestire-candidati-con-excel/">
+<link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/manage-candidates-excel/">
+<link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/gestire-candidati-con-excel/">
+<meta property="og:title" content="Gestire i candidati con Excel: modello gratuito per recruiter">
+<meta property="og:description" content="Come tenere traccia di candidati, colloqui e richiami con Excel: struttura, formule utili, errori da evitare e un modello gratuito scaricabile. Quando Excel non basta più.">
+<meta property="og:url" content="https://jobdeskcrm.com/guide/gestire-candidati-con-excel/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Recruiter CRM">
+<meta property="og:locale" content="it_IT">
+<meta property="og:image" content="https://jobdeskcrm.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gestire i candidati con Excel: modello gratuito per recruiter">
+<meta name="twitter:description" content="Come tenere traccia di candidati, colloqui e richiami con Excel: struttura, formule utili, errori da evitare e un modello gratuito scaricabile. Quando Excel non basta più.">
+<meta name="twitter:image" content="https://jobdeskcrm.com/assets/og-image.png">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "Gestire i candidati con Excel: modello gratuito per recruiter", "description": "Come tenere traccia di candidati, colloqui e richiami con Excel: struttura, formule utili, errori da evitare e un modello gratuito scaricabile. Quando Excel non basta più.", "inLanguage": "it", "mainEntityOfPage": "https://jobdeskcrm.com/guide/gestire-candidati-con-excel/", "image": "https://jobdeskcrm.com/assets/og-image.png", "datePublished": "2026-10-05", "dateModified": "2026-10-05", "author": {"@type": "Organization", "name": "Recruiter CRM"}, "publisher": {"@type": "Organization", "name": "Recruiter CRM", "url": "https://jobdeskcrm.com/"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Excel va bene per gestire i candidati?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, se i candidati sono poche decine e il foglio è ben strutturato (una riga per candidato, menu a tendina, date di richiamo). Con volumi più alti o più clienti diventa difficile da mantenere."}}, {"@type": "Question", "name": "Il modello è davvero gratuito?", "acceptedAnswer": {"@type": "Answer", "text": "Sì. Puoi scaricarlo, modificarlo e usarlo senza registrarti e senza lasciare l'email."}}, {"@type": "Question", "name": "Posso usare il modello con Google Fogli o LibreOffice?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, si apre anche con Google Fogli e LibreOffice. Alcune formattazioni potrebbero apparire leggermente diverse."}}, {"@type": "Question", "name": "Come gestisco il GDPR in un foglio Excel?", "acceptedAnswer": {"@type": "Answer", "text": "Il modello ha una colonna per il consenso privacy. Per il resto: conserva il file in un luogo protetto, limita gli accessi e cancella i dati quando non servono più. Per dubbi specifici rivolgiti a un consulente."}}]}]</script>
+<style>
+:root{--navy:#0b172a;--ink:#142033;--muted:#5b6b7d;--line:#e6eaf0;--bg:#f7f9fc;--blue:#1f4e9e;--blue2:#2f6fe0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,"Segoe UI",system-ui,-apple-system,sans-serif;color:var(--ink);background:#fff;line-height:1.7;font-size:17px}
+a{color:var(--blue2)}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 24px;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:5}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:500}
+.brand-mark{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:9px;background:var(--navy);color:#fff;font-weight:800;font-size:13px}
+.nav{display:flex;align-items:center;gap:14px;font-size:14px}
+.nav a{text-decoration:none;color:var(--ink)}
+.btn{display:inline-block;background:var(--blue2);color:#fff!important;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:10px}
+.btn:hover{background:var(--blue)}.btn.sec{background:#fff;color:var(--ink)!important;border:1px solid var(--line)}
+.nav .btn{padding:8px 14px;font-size:14px;color:#fff}
+.lang{border:1px solid var(--line);border-radius:8px;padding:5px 10px;font-weight:700;font-size:12px}
+main{max-width:760px;margin:0 auto;padding:40px 20px 70px}
+.crumbs{font-size:14px;color:var(--muted);margin-bottom:18px}.crumbs a{color:var(--muted)}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.2;margin:0 0 14px;color:var(--navy)}
+h2{font-size:25px;line-height:1.3;margin:44px 0 10px;color:var(--navy)}
+h3{font-size:19px;margin:26px 0 6px;color:var(--navy)}
+.lead{font-size:19px;color:var(--muted)}
+.meta{font-size:14px;color:var(--muted);margin-bottom:26px}
+.box{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:26px 0}
+.box h3{margin-top:0}
+.cta{background:var(--navy);color:#fff;border-radius:16px;padding:28px;margin:40px 0}
+.cta h2{color:#fff;margin:0 0 8px;font-size:23px}.cta p{color:#c9d3e3;margin:0 0 16px}
+.cta .btn.sec{background:transparent;color:#fff!important;border-color:#3a4a66}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:18px 0}
+th,td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+th{background:var(--bg);color:var(--navy)}
+ul,ol{padding-left:22px}li{margin:6px 0}
+details{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:10px 0}
+summary{cursor:pointer;font-weight:700;color:var(--navy)}
+footer{border-top:1px solid var(--line);padding:26px 20px;text-align:center;color:var(--muted);font-size:14px}
+footer a{color:var(--muted)}
+.cookie-banner{position:fixed;left:16px;right:16px;bottom:16px;max-width:620px;margin:auto;background:#fff;border:1px solid var(--line);box-shadow:0 8px 30px rgba(11,23,42,.18);border-radius:12px;padding:16px;font-size:14px;z-index:20}
+.cookie-banner.hidden{display:none}.cookie-banner p{margin:0 0 10px}
+.cookie-banner button{font:inherit;font-weight:700;border-radius:8px;padding:8px 14px;border:1px solid var(--line);background:#fff;cursor:pointer}
+.cookie-banner #cookie-accept{background:var(--blue2);color:#fff;border-color:var(--blue2)}
+@media(max-width:600px){body{font-size:16px}.nav a:not(.btn):not(.lang){display:none}}
+</style>
+</head>
+<body>
+<header class="topbar">
+<a class="brand" href="/"><span class="brand-mark">RC</span><span>Recruiter <strong>CRM</strong></span></a>
+<nav class="nav"><a href="/">Home</a><a class="lang" href="/en/guides/manage-candidates-excel/">EN</a><a class="btn" href="#" data-download-link>Scarica la prova</a></nav>
+</header>
+<main>
+<div class="crumbs"><a href="/">Home</a> › Gestire i candidati con Excel</div>
+<h1>Gestire i candidati con Excel: guida pratica e modello gratuito</h1>
+<p class="lead">Excel è lo strumento con cui quasi ogni recruiter inizia. Se lo imposti bene può bastare a lungo. Qui trovi come strutturarlo, quali errori evitare e un modello pronto da scaricare.</p>
+<p class="meta">Aggiornato a ottobre 2026</p>
+
+<div class="box"><h3>Scarica il modello gratuito</h3>
+<p>Foglio Excel pronto all'uso: candidati, colloqui, menu a tendina, richiami che diventano rossi quando sono scaduti e una dashboard che si aggiorna da sola. Nessuna registrazione richiesta.</p>
+<p><a class="btn" href="/risorse/Modello-Excel-Gestione-Candidati.xlsx" download>Scarica il modello Excel (.xlsx)</a></p></div>
+
+<h2>Cosa deve contenere un foglio per candidati</h2>
+<p>La regola principale: <strong>una riga per candidato, una colonna per informazione</strong>. Niente celle unite, niente colori usati come dati. Ecco le colonne che servono davvero:</p>
+<table><tr><th>Colonna</th><th>Perché serve</th></tr>
+<tr><td>Nome, cognome, email, telefono, città</td><td>Anagrafica minima per ricontattare la persona</td></tr>
+<tr><td>Ruolo cercato</td><td>Per filtrare chi è adatto a una posizione</td></tr>
+<tr><td>Fonte</td><td>Capire da dove arrivano i candidati migliori (LinkedIn, annunci, passaparola)</td></tr>
+<tr><td>Fase</td><td>Nuovo, contattato, colloquio, offerta, assunto, scartato</td></tr>
+<tr><td>Ultimo contatto e prossimo richiamo</td><td>Il punto in cui si perdono più candidati: chi non viene richiamato in tempo sparisce</td></tr>
+<tr><td>Consenso privacy</td><td>Con il GDPR devi poter dimostrare di avere il permesso di conservare i dati</td></tr>
+<tr><td>Note</td><td>Cosa vi siete detti, RAL, preavviso, preferenze</td></tr></table>
+
+<h2>I trucchi che rendono Excel molto più utile</h2>
+<h3>1. Menu a tendina al posto del testo libero</h3>
+<p>Se in una colonna scrivi a mano "Colloquio", "colloquio", "Colloq." avrai tre fasi diverse e i conteggi saranno sbagliati. Con <em>Dati → Convalida dati → Elenco</em> scegli i valori da un menu.</p>
+<h3>2. Evidenzia i richiami scaduti</h3>
+<p>Con la formattazione condizionale puoi colorare di rosso la cella del prossimo richiamo quando la data è passata. La formula è: <code>=E(N2&lt;&gt;"";N2&lt;OGGI())</code> (in inglese <code>=AND(N2&lt;&gt;"",N2&lt;TODAY())</code>).</p>
+<h3>3. Conta i candidati per fase con CONTA.SE</h3>
+<p><code>=CONTA.SE(J:J;"Colloquio")</code> ti dice quanti candidati sono in quella fase. Mettendo le fasi in una tabella a parte ottieni una piccola dashboard che si aggiorna da sola.</p>
+<h3>4. Usa i filtri</h3>
+<p>Attiva i filtri sulla riga delle intestazioni (<em>Dati → Filtro</em>) per trovare in due clic "sviluppatori a Milano, non contattati da un mese".</p>
+<h3>5. Fai copie di sicurezza</h3>
+<p>Un solo file significa un solo punto di rottura. Salvalo anche su un secondo disco o su un cloud, con la data nel nome.</p>
+
+<h2>Gli errori più comuni</h2>
+<ul>
+<li><strong>Più file diversi</strong> (uno per cliente, uno per mese): dopo qualche settimana non sai più dove cercare.</li>
+<li><strong>Colori al posto delle colonne</strong>: il giallo "da richiamare" non si può filtrare né contare.</li>
+<li><strong>Nessuna data di richiamo</strong>: i candidati promettenti si raffreddano senza che te ne accorga.</li>
+<li><strong>CV salvati in cartelle sparse</strong>: il file Excel non sa dove sono. Usa una convenzione fissa, ad esempio <code>Cognome_Nome_Ruolo.pdf</code>.</li>
+<li><strong>Dati personali senza protezione</strong>: un foglio con nomi e telefoni va tenuto su un PC protetto da password e non inviato per email senza criterio.</li>
+</ul>
+
+<h2>Quando Excel non basta più</h2>
+<p>Excel funziona bene finché i candidati sono poche decine. Iniziano i problemi quando:</p>
+<ul>
+<li>hai centinaia di schede e cercare diventa lento;</li>
+<li>ti dimentichi di richiamare perché nessuno ti avvisa;</li>
+<li>devi allegare e ritrovare i CV di ogni persona;</li>
+<li>scrivi ogni volta lo stesso messaggio di invito al colloquio;</li>
+<li>vuoi sapere quante assunzioni hai chiuso e da quale fonte arrivano.</li>
+</ul>
+<p>In quel caso conviene passare a un software dedicato. Un ATS/CRM in abbonamento è una strada; un programma per Windows che lavora offline, con i dati sul tuo PC e un pagamento una tantum, è un'altra.</p>
+
+<div class="cta"><h2>Provalo gratis per 14 giorni</h2>
+<p>Recruiter CRM è il software per recruiter che ho costruito per il mio lavoro quotidiano: candidati, pipeline, CV con competenze riconosciute, richiami con notifica e template messaggi. Offline, 79 € una tantum, nessun abbonamento.</p>
+<p><a class="btn" href="#" data-download-link>Scarica la prova gratuita</a> &nbsp; <a class="btn sec" href="/">Scopri le funzioni</a></p></div>
+
+<h2>Domande frequenti</h2>
+<details open><summary>Excel va bene per gestire i candidati?</summary><p>Sì, se i candidati sono poche decine e il foglio è ben strutturato (una riga per candidato, menu a tendina, date di richiamo). Con volumi più alti o più clienti diventa difficile da mantenere.</p></details>
+<details><summary>Il modello è davvero gratuito?</summary><p>Sì. Puoi scaricarlo, modificarlo e usarlo senza registrarti e senza lasciare l'email.</p></details>
+<details><summary>Posso usare il modello con Google Fogli o LibreOffice?</summary><p>Sì, si apre anche con Google Fogli e LibreOffice. Alcune formattazioni potrebbero apparire leggermente diverse.</p></details>
+<details><summary>Come gestisco il GDPR in un foglio Excel?</summary><p>Il modello ha una colonna per il consenso privacy. Per il resto: conserva il file in un luogo protetto, limita gli accessi e cancella i dati quando non servono più. Per dubbi specifici rivolgiti a un consulente.</p></details>
+
+</main>
+<footer>
+<p>ATS/CRM offline per recruiter. · <a href="mailto:alessandro.jobdesk@gmail.com">alessandro.jobdesk@gmail.com</a> · <a href="#" id="manage-cookies">Gestisci cookie</a></p>
+<p>© 2026 Recruiter CRM</p>
+</footer>
+<div id="cookie-banner" class="cookie-banner hidden">
+<p>Questo sito utilizza Google Analytics per raccogliere statistiche anonime sulla navigazione. Puoi accettare o rifiutare.</p>
+<button id="cookie-reject">Rifiuta</button> <button id="cookie-accept">Accetta</button>
+</div>
+<script>
+const GA_ID='G-SLMLCSJZ1G';
+const consent=localStorage.getItem('analytics-consent');
+const banner=document.getElementById('cookie-banner');
+function loadGA(){if(window.gaLoaded)return;window.gaLoaded=true;window.dataLayer=window.dataLayer||[];
+function gtag(){window.dataLayer.push(arguments)}window.gtag=gtag;gtag('js',new Date());gtag('config',GA_ID);
+const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+GA_ID;document.head.appendChild(s);}
+if(consent==='accepted'){loadGA()}else if(!consent){banner.classList.remove('hidden')}
+document.getElementById('cookie-accept').onclick=function(){localStorage.setItem('analytics-consent','accepted');banner.classList.add('hidden');loadGA()};
+document.getElementById('cookie-reject').onclick=function(){localStorage.setItem('analytics-consent','rejected');banner.classList.add('hidden')};
+document.getElementById('manage-cookies').onclick=function(e){e.preventDefault();localStorage.removeItem('analytics-consent');banner.classList.remove('hidden')};
+const DOWNLOAD_URL="https://github.com/AlomCRM/recruiter-crm-updates/releases/download/v3.3.5/Recruiter-CRM-Setup-3.3.5.exe";
+document.querySelectorAll('[data-download-link]').forEach(a=>a.href=DOWNLOAD_URL);
+</script>
+</body>
+</html>

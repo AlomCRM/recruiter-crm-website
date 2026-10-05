@@ -13,4 +13,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/" />
   </url>
+  <url>
+    <loc>https://jobdeskcrm.com/guide/gestire-candidati-con-excel/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/gestire-candidati-con-excel/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/manage-candidates-excel/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/gestire-candidati-con-excel/" />
+  </url>
+  <url>
+    <loc>https://jobdeskcrm.com/en/guides/manage-candidates-excel/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/gestire-candidati-con-excel/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/manage-candidates-excel/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/gestire-candidati-con-excel/" />
+  </url>
 </urlset>
