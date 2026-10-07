@@ -49,4 +49,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/linkedin-messages-recruiters/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/messaggi-linkedin-recruiter/" />
   </url>
+  <url>
+    <loc>https://jobdeskcrm.com/gioco/pipeline-rush/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/gioco/pipeline-rush/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/game/pipeline-rush/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/gioco/pipeline-rush/" />
+  </url>
+  <url>
+    <loc>https://jobdeskcrm.com/en/game/pipeline-rush/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/gioco/pipeline-rush/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/game/pipeline-rush/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/gioco/pipeline-rush/" />
+  </url>
 </urlset>

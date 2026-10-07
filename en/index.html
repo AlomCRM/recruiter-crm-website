@@ -33,6 +33,11 @@
       font-family: inherit;
     }
     .lang-switch:hover { background: #f7f9fc; }
+      #risorse .feature-grid{grid-template-columns:repeat(3,1fr)}
+    #risorse .feature-card{min-height:0}
+    #risorse .feature-card p a{color:var(--green-dark)}
+    @media (max-width:1050px){#risorse .feature-grid{grid-template-columns:1fr}}
+    footer a.legal-link{color:#fff;font-weight:700;text-decoration:underline}
   </style>
 
   <!-- Canonical URL -->
@@ -170,7 +175,7 @@
   <a href="#video">Video</a>
   <a href="#prezzo">Pricing</a>
   <a href="#contatti">Contact</a>
-  <a href="/en/guides/manage-candidates-excel/">Free guide</a>
+  <a href="#risorse">Free resources</a>
   <a class="lang-switch" href="/">IT</a>
   <a class="nav-cta" href="#" data-download-link>Download free trial</a>
 </nav>
@@ -216,6 +221,7 @@
       <span>✓ no subscription</span>
       <span>✓ Italian and English</span>
     </div>
+<p style="margin-top:14px"><a class="text-link" href="#risorse">Free resources: guides, templates and a game →</a></p>
 
   </div>
 
@@ -525,6 +531,16 @@
 </section>
 
 
+<!-- RISORSE -->
+<section id="risorse" class="section features-section">
+  <div class="section-head"><div><div class="section-label">FREE RESOURCES</div><h2>Free tools for recruiters.</h2></div><p>Guides, templates and a little game: no sign-up needed.</p></div>
+  <div class="feature-grid">
+    <article class="feature-card"><div class="icon">▤</div><h3><a href="/en/guides/manage-candidates-excel/" style="color:inherit;text-decoration:none">Free guide and Excel template</a></h3><p>A ready sheet to track candidates, plus the guide.</p><p><a href="/en/guides/manage-candidates-excel/" style="font-weight:700">Open →</a></p></article>
+    <article class="feature-card"><div class="icon">✉</div><h3><a href="/en/guides/linkedin-messages-recruiters/" style="color:inherit;text-decoration:none">6 LinkedIn messages for recruiters</a></h3><p>Copy-ready templates: connection, follow-up, rejection, referral.</p><p><a href="/en/guides/linkedin-messages-recruiters/" style="font-weight:700">Open →</a></p></article>
+    <article class="feature-card"><div class="icon">◉</div><h3><a href="/en/game/pipeline-rush/" style="color:inherit;text-decoration:none">Pipeline Rush, the game</a></h3><p>60 seconds to hire the right candidates. How high can you score?</p><p><a href="/en/game/pipeline-rush/" style="font-weight:700">Open →</a></p></article>
+  </div>
+</section>
+
 <!-- PREZZO -->
 <section id="prezzo" class="pricing section">
 
@@ -715,7 +731,7 @@
 </p>
 
 <p>
-  <a href="/en/privacy/">Privacy &amp; cookies</a> ·
+  <a href="/en/privacy/" class="legal-link">Privacy &amp; cookies</a> ·
   <a href="#" id="manage-cookies">Manage cookies</a>
 </p>
 

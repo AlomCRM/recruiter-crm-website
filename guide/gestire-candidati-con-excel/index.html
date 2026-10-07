@@ -24,18 +24,20 @@
 <meta name="twitter:image" content="https://jobdeskcrm.com/assets/og-image.png">
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "Gestire i candidati con Excel: modello gratuito per recruiter", "description": "Come tenere traccia di candidati, colloqui e richiami con Excel: struttura, formule utili, errori da evitare e un modello gratuito scaricabile. Quando Excel non basta più.", "inLanguage": "it", "mainEntityOfPage": "https://jobdeskcrm.com/guide/gestire-candidati-con-excel/", "image": "https://jobdeskcrm.com/assets/og-image.png", "datePublished": "2026-10-05", "dateModified": "2026-10-05", "author": {"@type": "Organization", "name": "Recruiter CRM"}, "publisher": {"@type": "Organization", "name": "Recruiter CRM", "url": "https://jobdeskcrm.com/"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Excel va bene per gestire i candidati?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, se i candidati sono poche decine e il foglio è ben strutturato (una riga per candidato, menu a tendina, date di richiamo). Con volumi più alti o più clienti diventa difficile da mantenere."}}, {"@type": "Question", "name": "Il modello è davvero gratuito?", "acceptedAnswer": {"@type": "Answer", "text": "Sì. Puoi scaricarlo, modificarlo e usarlo senza registrarti e senza lasciare l'email."}}, {"@type": "Question", "name": "Posso usare il modello con Google Fogli o LibreOffice?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, si apre anche con Google Fogli e LibreOffice. Alcune formattazioni potrebbero apparire leggermente diverse."}}, {"@type": "Question", "name": "Come gestisco il GDPR in un foglio Excel?", "acceptedAnswer": {"@type": "Answer", "text": "Il modello ha una colonna per il consenso privacy. Per il resto: conserva il file in un luogo protetto, limita gli accessi e cancella i dati quando non servono più. Per dubbi specifici rivolgiti a un consulente."}}]}]</script>
 <style>
-:root{--navy:#0b172a;--ink:#142033;--muted:#5b6b7d;--line:#e6eaf0;--bg:#f7f9fc;--blue:#1f4e9e;--blue2:#2f6fe0}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap');
+:root{--navy:#0b172a;--ink:#142033;--muted:#667085;--line:#e6eaf0;--bg:#f7f9fc;--blue:#08785a;--blue2:#18a47a;--mint:#e9f8f2}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;font-family:Inter,"Segoe UI",system-ui,-apple-system,sans-serif;color:var(--ink);background:#fff;line-height:1.7;font-size:17px}
-a{color:var(--blue2)}
+body{margin:0;font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.7;font-size:17px}
+a{color:var(--blue)}
+h1,h2,h3{font-family:Manrope,system-ui,sans-serif;letter-spacing:-.03em}
 .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 24px;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:5}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:500}
-.brand-mark{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:9px;background:var(--navy);color:#fff;font-weight:800;font-size:13px}
+.brand-mark{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:9px;background:linear-gradient(145deg,#1ab587,#08785a);color:#fff;font-weight:800;font-size:13px}
 .nav{display:flex;align-items:center;gap:14px;font-size:14px}
 .nav a{text-decoration:none;color:var(--ink)}
-.btn{display:inline-block;background:var(--blue2);color:#fff!important;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:10px}
+.btn{display:inline-block;background:var(--blue2);color:#fff!important;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:13px}
 .btn:hover{background:var(--blue)}.btn.sec{background:#fff;color:var(--ink)!important;border:1px solid var(--line)}
-.nav .btn{padding:8px 14px;font-size:14px;color:#fff}
+.nav .btn{padding:9px 15px;font-size:14px;color:#fff;background:var(--navy)}.nav .btn:hover{background:#122640}
 .lang{border:1px solid var(--line);border-radius:8px;padding:5px 10px;font-weight:700;font-size:12px}
 main{max-width:760px;margin:0 auto;padding:40px 20px 70px}
 .crumbs{font-size:14px;color:var(--muted);margin-bottom:18px}.crumbs a{color:var(--muted)}
@@ -56,8 +58,8 @@ th{background:var(--bg);color:var(--navy)}
 ul,ol{padding-left:22px}li{margin:6px 0}
 details{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:10px 0}
 summary{cursor:pointer;font-weight:700;color:var(--navy)}
-footer{border-top:1px solid var(--line);padding:26px 20px;text-align:center;color:var(--muted);font-size:14px}
-footer a{color:var(--muted)}
+footer{background:#071221;padding:28px 20px;text-align:center;color:#8290a0;font-size:14px}
+footer a{color:#9aabbc}footer a:hover{color:#fff}
 .cookie-banner{position:fixed;left:16px;right:16px;bottom:16px;max-width:620px;margin:auto;background:#fff;border:1px solid var(--line);box-shadow:0 8px 30px rgba(11,23,42,.18);border-radius:12px;padding:16px;font-size:14px;z-index:20}
 .cookie-banner.hidden{display:none}.cookie-banner p{margin:0 0 10px}
 .cookie-banner button{font:inherit;font-weight:700;border-radius:8px;padding:8px 14px;border:1px solid var(--line);background:#fff;cursor:pointer}
