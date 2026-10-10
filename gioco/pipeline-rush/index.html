@@ -213,7 +213,7 @@ if(consent==='accepted'){loadGA()}else if(!consent){banner.classList.remove('hid
 document.getElementById('cookie-accept').onclick=function(){localStorage.setItem('analytics-consent','accepted');banner.classList.add('hidden');loadGA()};
 document.getElementById('cookie-reject').onclick=function(){localStorage.setItem('analytics-consent','rejected');banner.classList.add('hidden')};
 document.getElementById('manage-cookies').onclick=function(e){e.preventDefault();localStorage.removeItem('analytics-consent');banner.classList.remove('hidden')};
-const DOWNLOAD_URL="https://github.com/AlomCRM/recruiter-crm-updates/releases/download/v3.3.8/Recruiter-CRM-Setup-3.3.8.exe";
+const DOWNLOAD_URL="https://github.com/AlomCRM/recruiter-crm-updates/releases/download/v3.3.9/Recruiter-CRM-Setup-3.3.9.exe";
 document.querySelectorAll('[data-download-link]').forEach(a=>a.href=DOWNLOAD_URL);
 </script>
 </body>
