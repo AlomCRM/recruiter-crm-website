@@ -64,4 +64,28 @@
   <url>
     <loc>https://jobdeskcrm.com/demo/</loc>
   </url>
+  <url>
+    <loc>https://jobdeskcrm.com/guide/gestire-candidati/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/gestire-candidati/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/manage-candidates/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/gestire-candidati/" />
+  </url>
+  <url>
+    <loc>https://jobdeskcrm.com/en/guides/manage-candidates/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/gestire-candidati/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/manage-candidates/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/gestire-candidati/" />
+  </url>
+  <url>
+    <loc>https://jobdeskcrm.com/guide/pipeline-di-selezione/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/recruiting-pipeline-stages/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/" />
+  </url>
+  <url>
+    <loc>https://jobdeskcrm.com/en/guides/recruiting-pipeline-stages/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/recruiting-pipeline-stages/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/" />
+  </url>
 </urlset>

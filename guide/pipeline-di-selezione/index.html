@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="it">
+<head>
+<script>(function(){if(location.hostname==="alomcrm.github.io"){var path=location.pathname.replace(/^\/recruiter-crm-website/,"")||"/";location.replace("https://jobdeskcrm.com"+path+location.search+location.hash);}})();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pipeline di selezione: fasi, esempio e metriche | Recruiter CRM</title>
+<meta name="description" content="Come costruire una pipeline di selezione del personale: fasi tipiche, come progettarle, metriche da seguire ed errori da evitare. Con esempio e vista Kanban.">
+<meta name="theme-color" content="#0b172a">
+<link rel="canonical" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/">
+<link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/">
+<link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/recruiting-pipeline-stages/">
+<link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/">
+<meta property="og:title" content="Pipeline di selezione: fasi, esempio e metriche">
+<meta property="og:description" content="Come costruire una pipeline di selezione del personale: fasi tipiche, come progettarle, metriche da seguire ed errori da evitare. Con esempio e vista Kanban.">
+<meta property="og:url" content="https://jobdeskcrm.com/guide/pipeline-di-selezione/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Recruiter CRM">
+<meta property="og:locale" content="it_IT">
+<meta property="og:image" content="https://jobdeskcrm.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pipeline di selezione: fasi, esempio e metriche">
+<meta name="twitter:description" content="Come costruire una pipeline di selezione del personale: fasi tipiche, come progettarle, metriche da seguire ed errori da evitare. Con esempio e vista Kanban.">
+<meta name="twitter:image" content="https://jobdeskcrm.com/assets/og-image.png">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "Pipeline di selezione: fasi, esempio e metriche", "description": "Come costruire una pipeline di selezione del personale: fasi tipiche, come progettarle, metriche da seguire ed errori da evitare. Con esempio e vista Kanban.", "inLanguage": "it", "mainEntityOfPage": "https://jobdeskcrm.com/guide/pipeline-di-selezione/", "image": "https://jobdeskcrm.com/assets/og-image.png", "datePublished": "2026-10-15", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Recruiter CRM"}, "publisher": {"@type": "Organization", "name": "Recruiter CRM", "url": "https://jobdeskcrm.com/"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quante fasi deve avere una pipeline di selezione?", "acceptedAnswer": {"@type": "Answer", "text": "In genere da 6 a 9, includendo gli stati di uscita. Se sono di più diventa difficile aggiornarle con costanza."}}, {"@type": "Question", "name": "Che differenza c'è tra pipeline e ATS?", "acceptedAnswer": {"@type": "Answer", "text": "La pipeline è il percorso del candidato; un ATS (o CRM per recruiter) è il software che la gestisce, con candidati, CV, richiami, messaggi e statistiche."}}, {"@type": "Question", "name": "Cos'è la vista Kanban?", "acceptedAnswer": {"@type": "Answer", "text": "Una lavagna a colonne, una per fase, in cui trascini le schede dei candidati. Permette di vedere subito dove si concentra il lavoro."}}, {"@type": "Question", "name": "Posso personalizzare le fasi in Recruiter CRM?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, le fasi della pipeline sono personalizzabili e puoi adattarle al tuo processo."}}]}]</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap');
+:root{--navy:#0b172a;--ink:#142033;--muted:#667085;--line:#e6eaf0;--bg:#f7f9fc;--blue:#08785a;--blue2:#18a47a;--mint:#e9f8f2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.7;font-size:17px}
+a{color:var(--blue)}
+h1,h2,h3{font-family:Manrope,system-ui,sans-serif;letter-spacing:-.03em}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 24px;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:5}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:500}
+.brand-mark{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:9px;background:linear-gradient(145deg,#1ab587,#08785a);color:#fff;font-weight:800;font-size:13px}
+.nav{display:flex;align-items:center;gap:14px;font-size:14px}
+.nav a{text-decoration:none;color:var(--ink)}
+.btn{display:inline-block;background:var(--blue2);color:#fff!important;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:13px}
+.btn:hover{background:var(--blue)}.btn.sec{background:#fff;color:var(--ink)!important;border:1px solid var(--line)}
+.nav .btn{padding:9px 15px;font-size:14px;color:#fff;background:var(--navy)}.nav .btn:hover{background:#122640}
+.lang{border:1px solid var(--line);border-radius:8px;padding:5px 10px;font-weight:700;font-size:12px}
+main{max-width:760px;margin:0 auto;padding:40px 20px 70px}
+.crumbs{font-size:14px;color:var(--muted);margin-bottom:18px}.crumbs a{color:var(--muted)}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.2;margin:0 0 14px;color:var(--navy)}
+h2{font-size:25px;line-height:1.3;margin:44px 0 10px;color:var(--navy)}
+h3{font-size:19px;margin:26px 0 6px;color:var(--navy)}
+.lead{font-size:19px;color:var(--muted)}
+.meta{font-size:14px;color:var(--muted);margin-bottom:26px}
+.box{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:26px 0}
+.box h3{margin-top:0}
+.cta{background:var(--navy);color:#fff;border-radius:16px;padding:28px;margin:40px 0}
+.cta h2{color:#fff;margin:0 0 8px;font-size:23px}.cta p{color:#c9d3e3;margin:0 0 16px}
+.cta .btn.sec{background:transparent;color:#fff!important;border-color:#3a4a66}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:18px 0;display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+code{overflow-wrap:anywhere}
+th,td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+th{background:var(--bg);color:var(--navy)}
+ul,ol{padding-left:22px}li{margin:6px 0}
+details{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:10px 0}
+summary{cursor:pointer;font-weight:700;color:var(--navy)}
+footer{background:#071221;padding:28px 20px;text-align:center;color:#8290a0;font-size:14px}
+footer a{color:#9aabbc}footer a:hover{color:#fff}
+.cookie-banner{position:fixed;left:16px;right:16px;bottom:16px;max-width:620px;margin:auto;background:#fff;border:1px solid var(--line);box-shadow:0 8px 30px rgba(11,23,42,.18);border-radius:12px;padding:16px;font-size:14px;z-index:20}
+.cookie-banner.hidden{display:none}.cookie-banner p{margin:0 0 10px}
+.cookie-banner button{font:inherit;font-weight:700;border-radius:8px;padding:8px 14px;border:1px solid var(--line);background:#fff;cursor:pointer}
+.cookie-banner #cookie-accept{background:var(--blue2);color:#fff;border-color:var(--blue2)}
+@media(max-width:600px){body{font-size:16px}.nav a:not(.btn):not(.lang){display:none}}
+</style>
+</head>
+<body>
+<header class="topbar">
+<a class="brand" href="/"><span class="brand-mark">RC</span><span>Recruiter <strong>CRM</strong></span></a>
+<nav class="nav"><a href="/">Home</a><a class="lang" href="/en/guides/recruiting-pipeline-stages/">EN</a><a class="btn" href="#" data-download-link>Scarica la prova</a></nav>
+</header>
+<main>
+<div class="crumbs"><a href="/">Home</a> › Pipeline di selezione</div>
+<h1>Pipeline di selezione: fasi, esempio e metriche</h1>
+<p class="lead">Una pipeline chiara ti dice in ogni momento quanti candidati hai, in quale fase sono e dove stai perdendo tempo. Ecco come costruirla.</p>
+<p class="meta">Aggiornato a ottobre 2026</p>
+<h2>Che cos'è una pipeline di selezione</h2>
+<p>La pipeline di selezione è la sequenza di fasi che un candidato attraversa, dal primo contatto all'assunzione (o allo scarto). Averla definita ti permette di vedere a colpo d'occhio quante persone hai in ogni passaggio e dove si accumula il lavoro.</p>
+
+<h2>Le fasi tipiche</h2>
+<table><tr><th>Fase</th><th>Cosa succede</th><th>Cosa controllare</th></tr>
+<tr><td>Nuovo / sourcing</td><td>Il profilo entra nel database</td><td>Fonte e consenso privacy</td></tr>
+<tr><td>Contattato</td><td>Primo messaggio o chiamata</td><td>Risposta entro 3-5 giorni, altrimenti richiamo</td></tr>
+<tr><td>Screening</td><td>Telefonata di verifica di motivazione, RAL, preavviso, requisiti</td><td>Note fattuali</td></tr>
+<tr><td>Colloquio</td><td>Incontro approfondito (video o in sede)</td><td>Valutazione scritta subito dopo</td></tr>
+<tr><td>Proposto al cliente</td><td>Invio del profilo al cliente</td><td>Feedback atteso entro una data</td></tr>
+<tr><td>Colloquio cliente</td><td>Uno o più incontri con il cliente</td><td>Preparare il candidato, raccogliere feedback</td></tr>
+<tr><td>Offerta</td><td>Proposta economica e contrattuale</td><td>Trattativa, tempi di risposta</td></tr>
+<tr><td>Assunto / scartato</td><td>Chiusura</td><td>Motivo, per imparare e per i dati</td></tr></table>
+<p>Non esiste un elenco giusto per tutti: un'agenzia che lavora per più clienti avrà più fasi di un reclutatore interno. L'importante è che siano <strong>poche, chiare e non ambigue</strong>.</p>
+
+<h2>Come progettare la tua pipeline</h2>
+<ul>
+<li><strong>Una fase = un fatto verificabile.</strong> "Colloquio fatto" è chiaro, "in valutazione" no.</li>
+<li><strong>Massimo 7-9 fasi.</strong> Di più, e smetti di aggiornarle.</li>
+<li><strong>Prevedi gli stati di uscita</strong>: scartato, rifiutato dal candidato, in pausa. Servono per i dati e per ricontattare in futuro.</li>
+<li><strong>Una pipeline per tipo di lavoro</strong> se serve: la selezione di un profilo tecnico e quella di un commerciale possono avere passaggi diversi.</li>
+</ul>
+
+<h2>Le metriche che contano</h2>
+<ul>
+<li><strong>Tasso di passaggio</strong> tra una fase e la successiva: dice dove perdi più candidati.</li>
+<li><strong>Tempo medio per fase</strong>: i candidati si raffreddano se aspettano troppo.</li>
+<li><strong>Fonte dei candidati assunti</strong>: ti dice dove investire il tempo.</li>
+<li><strong>Time to hire</strong>: dal primo contatto alla firma.</li>
+</ul>
+
+<h2>Gli errori più frequenti</h2>
+<ul>
+<li>Fasi troppo numerose o con nomi diversi a seconda del giorno.</li>
+<li>Candidati lasciati per settimane nella stessa fase senza una data di richiamo.</li>
+<li>Scarti senza motivo registrato: perdi la possibilità di riutilizzare il profilo.</li>
+<li>Nessuna vista d'insieme: sapere "a che punto siamo" richiede di aprire venti schede.</li>
+</ul>
+
+<h2>Pipeline in Excel o in un CRM</h2>
+<p>In Excel basta una colonna "Fase" con menu a tendina e un conteggio per fase (lo trovi nel <a href="/guide/gestire-candidati-con-excel/">modello gratuito</a>). Un software dedicato aggiunge la <strong>vista Kanban</strong>, dove trascini i candidati da una colonna all'altra. In Recruiter CRM le fasi sono personalizzabili, quindi puoi adattarle al tuo modo di lavorare; ogni candidato ha un richiamo con notifica. Puoi provarlo nella <a href="/demo/">demo nel browser</a> senza installare nulla.</p>
+<p>Leggi anche: <a href="/guide/gestire-candidati/">come gestire i candidati: guida pratica</a>.</p>
+<div class="cta"><h2>Provalo gratis per 14 giorni</h2>
+<p>Recruiter CRM è il software per recruiter che ho costruito per il mio lavoro quotidiano: candidati, pipeline, CV con competenze riconosciute, richiami con notifica e template messaggi. Offline, 79 € una tantum, nessun abbonamento.</p>
+<p><a class="btn" href="#" data-download-link>Scarica la prova gratuita</a> &nbsp; <a class="btn sec" href="/demo/">Prova la demo nel browser</a></p></div>
+<h2>Domande frequenti</h2>
+<details open><summary>Quante fasi deve avere una pipeline di selezione?</summary><p>In genere da 6 a 9, includendo gli stati di uscita. Se sono di più diventa difficile aggiornarle con costanza.</p></details>
+<details><summary>Che differenza c'è tra pipeline e ATS?</summary><p>La pipeline è il percorso del candidato; un ATS (o CRM per recruiter) è il software che la gestisce, con candidati, CV, richiami, messaggi e statistiche.</p></details>
+<details><summary>Cos'è la vista Kanban?</summary><p>Una lavagna a colonne, una per fase, in cui trascini le schede dei candidati. Permette di vedere subito dove si concentra il lavoro.</p></details>
+<details><summary>Posso personalizzare le fasi in Recruiter CRM?</summary><p>Sì, le fasi della pipeline sono personalizzabili e puoi adattarle al tuo processo.</p></details>
+
+</main>
+<footer>
+<p>ATS/CRM offline per recruiter. · <a href="mailto:alessandro.jobdesk@gmail.com">alessandro.jobdesk@gmail.com</a> · <a href="/privacy/">Privacy e cookie</a> · <a href="#" id="manage-cookies">Gestisci cookie</a></p>
+<p>© 2026 Recruiter CRM</p>
+</footer>
+<div id="cookie-banner" class="cookie-banner hidden">
+<p>Questo sito utilizza Google Analytics per raccogliere statistiche anonime sulla navigazione. Puoi accettare o rifiutare. <a href="/privacy/">Maggiori informazioni</a></p>
+<button id="cookie-reject">Rifiuta</button> <button id="cookie-accept">Accetta</button>
+</div>
+<script>
+const GA_ID='G-SLMLCSJZ1G';
+const consent=localStorage.getItem('analytics-consent');
+const banner=document.getElementById('cookie-banner');
+function loadGA(){if(window.gaLoaded)return;window.gaLoaded=true;window.dataLayer=window.dataLayer||[];
+function gtag(){window.dataLayer.push(arguments)}window.gtag=gtag;gtag('js',new Date());gtag('config',GA_ID);
+const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+GA_ID;document.head.appendChild(s);}
+if(consent==='accepted'){loadGA()}else if(!consent){banner.classList.remove('hidden')}
+document.getElementById('cookie-accept').onclick=function(){localStorage.setItem('analytics-consent','accepted');banner.classList.add('hidden');loadGA()};
+document.getElementById('cookie-reject').onclick=function(){localStorage.setItem('analytics-consent','rejected');banner.classList.add('hidden')};
+document.getElementById('manage-cookies').onclick=function(e){e.preventDefault();localStorage.removeItem('analytics-consent');banner.classList.remove('hidden')};
+const DOWNLOAD_URL="https://github.com/AlomCRM/recruiter-crm-updates/releases/download/v3.5.2/Recruiter-CRM-Setup-3.5.2.exe";
+document.querySelectorAll('[data-download-link]').forEach(a=>a.href=DOWNLOAD_URL);
+</script>
+</body>
+</html>
