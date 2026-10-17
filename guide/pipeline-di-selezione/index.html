@@ -4,7 +4,7 @@
 <script>(function(){if(location.hostname==="alomcrm.github.io"){var path=location.pathname.replace(/^\/recruiter-crm-website/,"")||"/";location.replace("https://jobdeskcrm.com"+path+location.search+location.hash);}})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pipeline di selezione: fasi, esempio e metriche | Recruiter CRM</title>
+<title>Pipeline di selezione: fasi, esempio e metriche | JobDesk CRM</title>
 <meta name="description" content="Come costruire una pipeline di selezione del personale: fasi tipiche, come progettarle, metriche da seguire ed errori da evitare. Con esempio e vista Kanban.">
 <meta name="theme-color" content="#0b172a">
 <link rel="canonical" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/">
@@ -15,14 +15,14 @@
 <meta property="og:description" content="Come costruire una pipeline di selezione del personale: fasi tipiche, come progettarle, metriche da seguire ed errori da evitare. Con esempio e vista Kanban.">
 <meta property="og:url" content="https://jobdeskcrm.com/guide/pipeline-di-selezione/">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="Recruiter CRM">
+<meta property="og:site_name" content="JobDesk CRM">
 <meta property="og:locale" content="it_IT">
 <meta property="og:image" content="https://jobdeskcrm.com/assets/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Pipeline di selezione: fasi, esempio e metriche">
 <meta name="twitter:description" content="Come costruire una pipeline di selezione del personale: fasi tipiche, come progettarle, metriche da seguire ed errori da evitare. Con esempio e vista Kanban.">
 <meta name="twitter:image" content="https://jobdeskcrm.com/assets/og-image.png">
-<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "Pipeline di selezione: fasi, esempio e metriche", "description": "Come costruire una pipeline di selezione del personale: fasi tipiche, come progettarle, metriche da seguire ed errori da evitare. Con esempio e vista Kanban.", "inLanguage": "it", "mainEntityOfPage": "https://jobdeskcrm.com/guide/pipeline-di-selezione/", "image": "https://jobdeskcrm.com/assets/og-image.png", "datePublished": "2026-10-15", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Recruiter CRM"}, "publisher": {"@type": "Organization", "name": "Recruiter CRM", "url": "https://jobdeskcrm.com/"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quante fasi deve avere una pipeline di selezione?", "acceptedAnswer": {"@type": "Answer", "text": "In genere da 6 a 9, includendo gli stati di uscita. Se sono di più diventa difficile aggiornarle con costanza."}}, {"@type": "Question", "name": "Che differenza c'è tra pipeline e ATS?", "acceptedAnswer": {"@type": "Answer", "text": "La pipeline è il percorso del candidato; un ATS (o CRM per recruiter) è il software che la gestisce, con candidati, CV, richiami, messaggi e statistiche."}}, {"@type": "Question", "name": "Cos'è la vista Kanban?", "acceptedAnswer": {"@type": "Answer", "text": "Una lavagna a colonne, una per fase, in cui trascini le schede dei candidati. Permette di vedere subito dove si concentra il lavoro."}}, {"@type": "Question", "name": "Posso personalizzare le fasi in Recruiter CRM?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, le fasi della pipeline sono personalizzabili e puoi adattarle al tuo processo."}}]}]</script>
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "Pipeline di selezione: fasi, esempio e metriche", "description": "Come costruire una pipeline di selezione del personale: fasi tipiche, come progettarle, metriche da seguire ed errori da evitare. Con esempio e vista Kanban.", "inLanguage": "it", "mainEntityOfPage": "https://jobdeskcrm.com/guide/pipeline-di-selezione/", "image": "https://jobdeskcrm.com/assets/og-image.png", "datePublished": "2026-10-15", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "JobDesk CRM"}, "publisher": {"@type": "Organization", "name": "JobDesk CRM", "url": "https://jobdeskcrm.com/"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quante fasi deve avere una pipeline di selezione?", "acceptedAnswer": {"@type": "Answer", "text": "In genere da 6 a 9, includendo gli stati di uscita. Se sono di più diventa difficile aggiornarle con costanza."}}, {"@type": "Question", "name": "Che differenza c'è tra pipeline e ATS?", "acceptedAnswer": {"@type": "Answer", "text": "La pipeline è il percorso del candidato; un ATS (o CRM per recruiter) è il software che la gestisce, con candidati, CV, richiami, messaggi e statistiche."}}, {"@type": "Question", "name": "Cos'è la vista Kanban?", "acceptedAnswer": {"@type": "Answer", "text": "Una lavagna a colonne, una per fase, in cui trascini le schede dei candidati. Permette di vedere subito dove si concentra il lavoro."}}, {"@type": "Question", "name": "Posso personalizzare le fasi in JobDesk CRM?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, le fasi della pipeline sono personalizzabili e puoi adattarle al tuo processo."}}]}]</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap');
 :root{--navy:#0b172a;--ink:#142033;--muted:#667085;--line:#e6eaf0;--bg:#f7f9fc;--blue:#08785a;--blue2:#18a47a;--mint:#e9f8f2}
@@ -117,21 +117,21 @@ footer a{color:#9aabbc}footer a:hover{color:#fff}
 </ul>
 
 <h2>Pipeline in Excel o in un CRM</h2>
-<p>In Excel basta una colonna "Fase" con menu a tendina e un conteggio per fase (lo trovi nel <a href="/guide/gestire-candidati-con-excel/">modello gratuito</a>). Un software dedicato aggiunge la <strong>vista Kanban</strong>, dove trascini i candidati da una colonna all'altra. In Recruiter CRM le fasi sono personalizzabili, quindi puoi adattarle al tuo modo di lavorare; ogni candidato ha un richiamo con notifica. Puoi provarlo nella <a href="/demo/">demo nel browser</a> senza installare nulla.</p>
+<p>In Excel basta una colonna "Fase" con menu a tendina e un conteggio per fase (lo trovi nel <a href="/guide/gestire-candidati-con-excel/">modello gratuito</a>). Un software dedicato aggiunge la <strong>vista Kanban</strong>, dove trascini i candidati da una colonna all'altra. In JobDesk CRM le fasi sono personalizzabili, quindi puoi adattarle al tuo modo di lavorare; ogni candidato ha un richiamo con notifica. Puoi provarlo nella <a href="/demo/">demo nel browser</a> senza installare nulla.</p>
 <p>Leggi anche: <a href="/guide/gestire-candidati/">come gestire i candidati: guida pratica</a>.</p>
 <div class="cta"><h2>Provalo gratis per 14 giorni</h2>
-<p>Recruiter CRM è il software per recruiter che ho costruito per il mio lavoro quotidiano: candidati, pipeline, CV con competenze riconosciute, richiami con notifica e template messaggi. Offline, 79 € una tantum, nessun abbonamento.</p>
+<p>JobDesk CRM è il software per recruiter che ho costruito per il mio lavoro quotidiano: candidati, pipeline, CV con competenze riconosciute, richiami con notifica e template messaggi. Offline, 79 € una tantum, nessun abbonamento.</p>
 <p><a class="btn" href="#" data-download-link>Scarica la prova gratuita</a> &nbsp; <a class="btn sec" href="/demo/">Prova la demo nel browser</a></p></div>
 <h2>Domande frequenti</h2>
 <details open><summary>Quante fasi deve avere una pipeline di selezione?</summary><p>In genere da 6 a 9, includendo gli stati di uscita. Se sono di più diventa difficile aggiornarle con costanza.</p></details>
 <details><summary>Che differenza c'è tra pipeline e ATS?</summary><p>La pipeline è il percorso del candidato; un ATS (o CRM per recruiter) è il software che la gestisce, con candidati, CV, richiami, messaggi e statistiche.</p></details>
 <details><summary>Cos'è la vista Kanban?</summary><p>Una lavagna a colonne, una per fase, in cui trascini le schede dei candidati. Permette di vedere subito dove si concentra il lavoro.</p></details>
-<details><summary>Posso personalizzare le fasi in Recruiter CRM?</summary><p>Sì, le fasi della pipeline sono personalizzabili e puoi adattarle al tuo processo.</p></details>
+<details><summary>Posso personalizzare le fasi in JobDesk CRM?</summary><p>Sì, le fasi della pipeline sono personalizzabili e puoi adattarle al tuo processo.</p></details>
 
 </main>
 <footer>
 <p>ATS/CRM offline per recruiter. · <a href="mailto:alessandro.jobdesk@gmail.com">alessandro.jobdesk@gmail.com</a> · <a href="/privacy/">Privacy e cookie</a> · <a href="#" id="manage-cookies">Gestisci cookie</a></p>
-<p>© 2026 Recruiter CRM</p>
+<p>© 2026 JobDesk CRM</p>
 </footer>
 <div id="cookie-banner" class="cookie-banner hidden">
 <p>Questo sito utilizza Google Analytics per raccogliere statistiche anonime sulla navigazione. Puoi accettare o rifiutare. <a href="/privacy/">Maggiori informazioni</a></p>
