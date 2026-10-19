@@ -88,4 +88,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/recruiting-pipeline-stages/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/" />
   </url>
+  <url>
+    <loc>https://jobdeskcrm.com/guide/gestire-candidature-senza-excel/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/gestire-candidature-senza-excel/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/gestire-candidature-senza-excel/" />
+  </url>
+  <url>
+    <loc>https://jobdeskcrm.com/guide/modelli-messaggi-candidati/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/modelli-messaggi-candidati/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/modelli-messaggi-candidati/" />
+  </url>
+  <url>
+    <loc>https://jobdeskcrm.com/guide/scrivere-annuncio-di-lavoro/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/scrivere-annuncio-di-lavoro/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/scrivere-annuncio-di-lavoro/" />
+  </url>
 </urlset>
