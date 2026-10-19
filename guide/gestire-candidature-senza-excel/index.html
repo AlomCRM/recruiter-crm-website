@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="it">
+<head>
+<script>(function(){if(location.hostname==="alomcrm.github.io"){var path=location.pathname.replace(/^\/recruiter-crm-website/,"")||"/";location.replace("https://jobdeskcrm.com"+path+location.search+location.hash);}})();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gestire le candidature senza Excel: alternative e come passare a un CRM | JobDesk CRM</title>
+<meta name="description" content="Excel non basta più? I segnali da riconoscere, le alternative a confronto (foglio migliorato, ATS online, CRM offline) e come migrare le candidature senza perdere dati.">
+<meta name="theme-color" content="#0b172a">
+<link rel="canonical" href="https://jobdeskcrm.com/guide/gestire-candidature-senza-excel/">
+<link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/gestire-candidature-senza-excel/">
+<link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/gestire-candidature-senza-excel/">
+<meta property="og:title" content="Gestire le candidature senza Excel: alternative e come passare a un CRM">
+<meta property="og:description" content="Excel non basta più? I segnali da riconoscere, le alternative a confronto (foglio migliorato, ATS online, CRM offline) e come migrare le candidature senza perdere dati.">
+<meta property="og:url" content="https://jobdeskcrm.com/guide/gestire-candidature-senza-excel/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="JobDesk CRM">
+<meta property="og:locale" content="it_IT">
+<meta property="og:image" content="https://jobdeskcrm.com/assets/og-jobdesk-crm.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gestire le candidature senza Excel: alternative e come passare a un CRM">
+<meta name="twitter:description" content="Excel non basta più? I segnali da riconoscere, le alternative a confronto (foglio migliorato, ATS online, CRM offline) e come migrare le candidature senza perdere dati.">
+<meta name="twitter:image" content="https://jobdeskcrm.com/assets/og-jobdesk-crm.png">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "Gestire le candidature senza Excel: alternative e come passare a un CRM", "description": "Excel non basta più? I segnali da riconoscere, le alternative a confronto (foglio migliorato, ATS online, CRM offline) e come migrare le candidature senza perdere dati.", "inLanguage": "it", "mainEntityOfPage": "https://jobdeskcrm.com/guide/gestire-candidature-senza-excel/", "image": "https://jobdeskcrm.com/assets/og-jobdesk-crm.png", "datePublished": "2026-10-20", "dateModified": "2026-10-20", "author": {"@type": "Organization", "name": "JobDesk CRM"}, "publisher": {"@type": "Organization", "name": "JobDesk CRM", "url": "https://jobdeskcrm.com/"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Posso gestire le candidature con Google Sheets invece di Excel?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, funziona allo stesso modo e ti permette di condividere il foglio. Valgono gli stessi limiti: nessun promemoria automatico, nessuno storico dei contatti e nessun CV allegato alla riga. Con dati personali, controlla anche dove vengono conservati e chi può accedere."}}, {"@type": "Question", "name": "Un CRM per recruiter è diverso da un ATS?", "acceptedAnswer": {"@type": "Answer", "text": "Le funzioni si sovrappongono. Un ATS è pensato soprattutto per gestire annunci, candidature in ingresso e team di selezione; un CRM per recruiter mette al centro i rapporti con candidati e clienti, i richiami e lo storico dei contatti. Molti strumenti fanno un po' di entrambe le cose."}}, {"@type": "Question", "name": "Posso importare il mio file Excel in JobDesk CRM?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, nella pagina Candidati c'è la funzione Importa Excel. Conviene prima pulire il foglio (una riga per persona, intestazioni chiare) e controllare a campione le schede importate."}}, {"@type": "Question", "name": "I miei dati sono al sicuro?", "acceptedAnswer": {"@type": "Answer", "text": "In JobDesk CRM i dati restano sul tuo computer, non su un server esterno, e puoi fare backup automatici e manuali. La sicurezza dipende anche da come proteggi il PC e dove conservi le copie."}}, {"@type": "Question", "name": "Quanto costa JobDesk CRM?", "acceptedAnswer": {"@type": "Answer", "text": "79 € una tantum, senza abbonamento, con 14 giorni di prova gratuita."}}]}]</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap');
+:root{--navy:#0b172a;--ink:#142033;--muted:#667085;--line:#e6eaf0;--bg:#f7f9fc;--blue:#08785a;--blue2:#18a47a;--mint:#e9f8f2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.7;font-size:17px}
+a{color:var(--blue)}
+h1,h2,h3{font-family:Manrope,system-ui,sans-serif;letter-spacing:-.03em}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 24px;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:5}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:500}
+.brand-mark{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:9px;background:linear-gradient(145deg,#1ab587,#08785a);color:#fff;font-weight:800;font-size:13px}
+.nav{display:flex;align-items:center;gap:14px;font-size:14px}
+.nav a{text-decoration:none;color:var(--ink)}
+.btn{display:inline-block;background:var(--blue2);color:#fff!important;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:13px}
+.btn:hover{background:var(--blue)}.btn.sec{background:#fff;color:var(--ink)!important;border:1px solid var(--line)}
+.nav .btn{padding:9px 15px;font-size:14px;color:#fff;background:var(--navy)}.nav .btn:hover{background:#122640}
+.lang{border:1px solid var(--line);border-radius:8px;padding:5px 10px;font-weight:700;font-size:12px}
+main{max-width:760px;margin:0 auto;padding:40px 20px 70px}
+.crumbs{font-size:14px;color:var(--muted);margin-bottom:18px}.crumbs a{color:var(--muted)}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.2;margin:0 0 14px;color:var(--navy)}
+h2{font-size:25px;line-height:1.3;margin:44px 0 10px;color:var(--navy)}
+h3{font-size:19px;margin:26px 0 6px;color:var(--navy)}
+.lead{font-size:19px;color:var(--muted)}
+.meta{font-size:14px;color:var(--muted);margin-bottom:26px}
+.box{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:26px 0}
+.box h3{margin-top:0}
+.cta{background:var(--navy);color:#fff;border-radius:16px;padding:28px;margin:40px 0}
+.cta h2{color:#fff;margin:0 0 8px;font-size:23px}.cta p{color:#c9d3e3;margin:0 0 16px}
+.cta .btn.sec{background:transparent;color:#fff!important;border-color:#3a4a66}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:18px 0;display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+code{overflow-wrap:anywhere}
+th,td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+th{background:var(--bg);color:var(--navy)}
+ul,ol{padding-left:22px}li{margin:6px 0}
+details{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:10px 0}
+summary{cursor:pointer;font-weight:700;color:var(--navy)}
+footer{background:#071221;padding:28px 20px;text-align:center;color:#8290a0;font-size:14px}
+footer a{color:#9aabbc}footer a:hover{color:#fff}
+.cookie-banner{position:fixed;left:16px;right:16px;bottom:16px;max-width:620px;margin:auto;background:#fff;border:1px solid var(--line);box-shadow:0 8px 30px rgba(11,23,42,.18);border-radius:12px;padding:16px;font-size:14px;z-index:20}
+.cookie-banner.hidden{display:none}.cookie-banner p{margin:0 0 10px}
+.cookie-banner button{font:inherit;font-weight:700;border-radius:8px;padding:8px 14px;border:1px solid var(--line);background:#fff;cursor:pointer}
+.cookie-banner #cookie-accept{background:var(--blue2);color:#fff;border-color:var(--blue2)}
+@media(max-width:600px){body{font-size:16px}.nav a:not(.btn):not(.lang){display:none}}
+</style>
+</head>
+<body>
+<header class="topbar">
+<a class="brand" href="/"><span class="brand-mark">JD</span><span>JobDesk <strong>CRM</strong></span></a>
+<nav class="nav"><a href="/">Home</a><a class="lang" href="/en/">EN</a><a class="btn" href="#" data-download-link>Scarica la prova</a></nav>
+</header>
+<main>
+<div class="crumbs"><a href="/">Home</a> › Gestire le candidature senza Excel</div>
+<h1>Gestire le candidature senza Excel: alternative e come passare a un CRM</h1>
+<p class="lead">Excel è ottimo per iniziare. Ma quando le candidature crescono, tra fogli duplicati, richiami dimenticati e note sparse, serve qualcosa di più. Ecco come capire quando passare e come farlo senza perdere nulla.</p>
+<p class="meta">Aggiornato a ottobre 2026</p>
+
+<h2>Excel va bene, fino a un certo punto</h2>
+<p>Un foglio di calcolo è gratuito, lo conosci già e lo adatti in cinque minuti. Per i primi 30-50 candidati è una soluzione sensata, e se parti da lì non hai sbagliato niente: nella <a href="/guide/gestire-candidati-con-excel/">guida al modello Excel gratuito</a> trovi come impostarlo bene.</p>
+<p>Il problema non è Excel in sé. È che un foglio <strong>registra dati, ma non ti dice cosa fare</strong>. Non ti avvisa che un candidato aspetta una risposta da dodici giorni, non tiene lo storico dei contatti e non ti mostra a colpo d'occhio quante persone hai in ogni fase.</p>
+
+<h2>7 segnali che Excel non ti basta più</h2>
+<ol>
+<li><strong>Hai più di un file.</strong> "Candidati_2026", "Candidati_2026_nuovo", "Candidati_definitivo": non sai più qual è quello aggiornato.</li>
+<li><strong>Ti scordi di richiamare.</strong> Le date di follow-up stanno in un'altra colonna, o nella tua testa, o su un post-it.</li>
+<li><strong>Perdi tempo a cercare.</strong> Per ritrovare "quel candidato Java di Milano con un buon inglese" devi filtrare tre colonne e aprire due CV.</li>
+<li><strong>Le note diventano illeggibili.</strong> Una cella con quindici righe di appunti non è uno storico.</li>
+<li><strong>I CV stanno altrove.</strong> Il foglio è in un posto, i PDF in un'altra cartella, le email in una terza.</li>
+<li><strong>Non sai a che punto sei.</strong> Per sapere quanti candidati sono in colloquio devi contare a mano o costruire una tabella pivot.</li>
+<li><strong>Hai dubbi sulla privacy.</strong> Non sai chi ha dato il consenso, da quanto tieni i dati e dove sono finite le copie del file.</li>
+</ol>
+<p>Se ti riconosci in tre o più, è il momento di valutare un'alternativa.</p>
+
+<h2>Cosa ti serve davvero al posto di Excel</h2>
+<p>Prima di scegliere uno strumento, scrivi cosa deve fare. Una lista minima, per un recruiter che lavora da solo o in una piccola agenzia:</p>
+<ul>
+<li><strong>Una scheda per ogni candidato</strong>, con contatti, ruolo, fonte, note e valutazione.</li>
+<li><strong>Fasi di selezione chiare</strong> (contattato, screening, colloquio, offerta...) e una vista d'insieme.</li>
+<li><strong>Richiami con data e ora</strong> e un avviso quando scadono.</li>
+<li><strong>Uno storico</strong> di cosa è successo e quando.</li>
+<li><strong>Il CV allegato alla scheda</strong>, non in una cartella a parte.</li>
+<li><strong>Ricerca veloce</strong> per nome, ruolo, competenze, città.</li>
+<li><strong>Messaggi pronti</strong> (invito al colloquio, follow-up, rifiuto) da compilare in un clic.</li>
+<li><strong>Backup</strong> e un modo semplice per esportare tutto, se un giorno cambi strumento.</li>
+<li><strong>Consenso privacy</strong> registrato per ogni persona.</li>
+</ul>
+
+<h2>Le alternative a confronto</h2>
+<table>
+<tr><th></th><th>Excel o Google Sheets migliorato</th><th>ATS online (abbonamento)</th><th>CRM per recruiter installato sul PC</th></tr>
+<tr><td><strong>Costo</strong></td><td>Gratuito (o già incluso nel tuo pacchetto)</td><td>Di solito un canone mensile per utente</td><td>Spesso una licenza una tantum</td></tr>
+<tr><td><strong>Avvio</strong></td><td>Immediato</td><td>Configurazione e formazione</td><td>Installazione e importazione del foglio</td></tr>
+<tr><td><strong>Richiami e promemoria</strong></td><td>Manuali (formule e colori)</td><td>Sì</td><td>Sì, con notifica</td></tr>
+<tr><td><strong>Lavoro in team in tempo reale</strong></td><td>Con Google Sheets, in modo base</td><td>Sì, è il punto di forza</td><td>No: pensato per una persona</td></tr>
+<tr><td><strong>Dove stanno i dati</strong></td><td>Sul tuo PC o nel tuo cloud</td><td>Sui server del fornitore</td><td>Sul tuo PC</td></tr>
+<tr><td><strong>Adatto a</strong></td><td>Pochi candidati, uso occasionale</td><td>Team numerosi e aziende strutturate</td><td>Recruiter autonomi e piccole agenzie</td></tr>
+</table>
+<p>Non esiste una scelta giusta per tutti. Se lavorate in dieci sugli stessi candidati, un ATS online ha senso. Se lavori da solo o in due e non vuoi un abbonamento né i tuoi dati su server altrui, un CRM installato sul PC è più semplice ed economico.</p>
+<p>JobDesk CRM rientra nella terza colonna: un software per Windows per un singolo recruiter, con licenza una tantum di 79 € e 14 giorni di prova. Non è pensato per un team che modifica gli stessi dati contemporaneamente.</p>
+
+<h2>Come passare da Excel a un CRM in 5 passi</h2>
+<ol>
+<li><strong>Pulisci il foglio.</strong> Una riga per candidato, intestazioni chiare (nome, cognome, telefono, email, ruolo, città, fase, note). Unisci i duplicati e correggi i numeri di telefono scritti in formati diversi.</li>
+<li><strong>Salva una copia.</strong> Tieni il file originale intatto: lavora sempre su una copia.</li>
+<li><strong>Importa.</strong> In JobDesk CRM usa <em>Importa Excel</em> dalla pagina Candidati; in altri software cerca la funzione di importazione da .xlsx o .csv.</li>
+<li><strong>Controlla il risultato.</strong> Apri a campione dieci schede e verifica che nomi, contatti e fasi siano al posto giusto.</li>
+<li><strong>Imposta i richiami.</strong> Per i candidati ancora attivi, dai subito una data di richiamo: è qui che si vede il vantaggio rispetto al foglio.</li>
+</ol>
+<p>Non buttare il vecchio foglio per qualche settimana: usalo come rete di sicurezza finché non ti fidi del nuovo sistema.</p>
+
+<h2>Privacy: cosa non dimenticare in nessun caso</h2>
+<p>Qualunque strumento usi, i dati dei candidati sono dati personali. Alcune buone pratiche valgono sempre:</p>
+<ul>
+<li>raccogli solo i dati che ti servono;</li>
+<li>registra il consenso (o la base giuridica) e la data;</li>
+<li>decidi per quanto tempo conservi i profili e cancellali alla scadenza;</li>
+<li>fai backup su un supporto che controlli tu;</li>
+<li>non spedirti per email copie complete del database.</li>
+</ul>
+<p>Queste indicazioni sono generali e non sostituiscono la consulenza di un esperto di protezione dei dati per il tuo caso.</p>
+
+<h2>Gli errori da evitare quando cambi sistema</h2>
+<ul>
+<li><strong>Importare tutto senza pulire.</strong> I duplicati e i dati sbagliati si portano dietro al nuovo sistema.</li>
+<li><strong>Creare troppe fasi.</strong> Più di 7-9 e smetti di aggiornarle: guarda come progettarle nella <a href="/guide/pipeline-di-selezione/">guida alla pipeline di selezione</a>.</li>
+<li><strong>Usare due sistemi insieme per mesi.</strong> Scegli una data e passa del tutto.</li>
+<li><strong>Dimenticare l'esportazione.</strong> Prima di scegliere, verifica che tu possa riportare fuori i tuoi dati.</li>
+</ul>
+
+<div class="cta"><h2>Prova il passaggio con i tuoi dati</h2>
+<p>JobDesk CRM importa il tuo foglio Excel, ti mostra i candidati in lista o in vista Kanban e ti avvisa quando è ora di richiamare. Funziona offline, costa 79 € una tantum e puoi provarlo 14 giorni gratis. Se vuoi vedere prima come funziona, c'è anche la <a href="/demo/">demo nel browser</a>.</p>
+<p><a class="btn" href="#" data-download-link>Scarica la prova gratuita</a> &nbsp; <a class="btn sec" href="/demo/">Prova la demo nel browser</a></p></div>
+
+<p>Leggi anche: <a href="/guide/gestire-candidati/">come gestire i candidati: guida pratica</a> · <a href="/guide/messaggi-linkedin-recruiter/">6 messaggi LinkedIn per recruiter</a>.</p>
+
+<h2>Domande frequenti</h2>
+<details open><summary>Posso gestire le candidature con Google Sheets invece di Excel?</summary><p>Sì, funziona allo stesso modo e ti permette di condividere il foglio. Valgono gli stessi limiti: nessun promemoria automatico, nessuno storico dei contatti e nessun CV allegato alla riga. Con dati personali, controlla anche dove vengono conservati e chi può accedere.</p></details>
+<details><summary>Un CRM per recruiter è diverso da un ATS?</summary><p>Le funzioni si sovrappongono. Un ATS è pensato soprattutto per gestire annunci, candidature in ingresso e team di selezione; un CRM per recruiter mette al centro i rapporti con candidati e clienti, i richiami e lo storico dei contatti. Molti strumenti fanno un po&#x27; di entrambe le cose.</p></details>
+<details><summary>Posso importare il mio file Excel in JobDesk CRM?</summary><p>Sì, nella pagina Candidati c&#x27;è la funzione Importa Excel. Conviene prima pulire il foglio (una riga per persona, intestazioni chiare) e controllare a campione le schede importate.</p></details>
+<details><summary>I miei dati sono al sicuro?</summary><p>In JobDesk CRM i dati restano sul tuo computer, non su un server esterno, e puoi fare backup automatici e manuali. La sicurezza dipende anche da come proteggi il PC e dove conservi le copie.</p></details>
+<details><summary>Quanto costa JobDesk CRM?</summary><p>79 € una tantum, senza abbonamento, con 14 giorni di prova gratuita.</p></details>
+
+</main>
+<footer>
+<p>ATS/CRM offline per recruiter. · <a href="mailto:alessandro.jobdesk@gmail.com">alessandro.jobdesk@gmail.com</a> · <a href="/privacy/">Privacy e cookie</a> · <a href="#" id="manage-cookies">Gestisci cookie</a></p>
+<p>© 2026 JobDesk CRM</p>
+</footer>
+<div id="cookie-banner" class="cookie-banner hidden">
+<p>Questo sito utilizza Google Analytics per raccogliere statistiche anonime sulla navigazione. Puoi accettare o rifiutare. <a href="/privacy/">Maggiori informazioni</a></p>
+<button id="cookie-reject">Rifiuta</button> <button id="cookie-accept">Accetta</button>
+</div>
+<script>
+const GA_ID='G-SLMLCSJZ1G';
+const consent=localStorage.getItem('analytics-consent');
+const banner=document.getElementById('cookie-banner');
+function loadGA(){if(window.gaLoaded)return;window.gaLoaded=true;window.dataLayer=window.dataLayer||[];
+function gtag(){window.dataLayer.push(arguments)}window.gtag=gtag;gtag('js',new Date());gtag('config',GA_ID);
+const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+GA_ID;document.head.appendChild(s);}
+if(consent==='accepted'){loadGA()}else if(!consent){banner.classList.remove('hidden')}
+document.getElementById('cookie-accept').onclick=function(){localStorage.setItem('analytics-consent','accepted');banner.classList.add('hidden');loadGA()};
+document.getElementById('cookie-reject').onclick=function(){localStorage.setItem('analytics-consent','rejected');banner.classList.add('hidden')};
+document.getElementById('manage-cookies').onclick=function(e){e.preventDefault();localStorage.removeItem('analytics-consent');banner.classList.remove('hidden')};
+const DOWNLOAD_URL="https://github.com/AlomCRM/recruiter-crm-updates/releases/download/v3.5.4/Recruiter-CRM-Setup-3.5.4.exe";
+document.querySelectorAll('[data-download-link]').forEach(a=>a.href=DOWNLOAD_URL);
+</script>
+</body>
+</html>
