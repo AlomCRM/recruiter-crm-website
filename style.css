@@ -1376,3 +1376,5 @@ html { scroll-behavior: smooth; }
   .tl-fields, .ct-two { grid-template-columns: 1fr; }
   .tl-big { font-size: 30px; }
 }
+
+.split-image img { height: auto; display: block; }
