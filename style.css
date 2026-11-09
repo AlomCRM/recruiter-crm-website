@@ -1430,4 +1430,92 @@ LOOK "CRM" - HERO SCURO
 @media (max-width: 1100px) { .hero-float { display: none; } }
 @media (max-width: 600px) { .hero-dark { padding-top: 46px; } .hero-dark h1 { font-size: 38px; } .hero-dark .hero-text { font-size: 16px; } }
 
+/* =========================
+TEMA SCURO SU TUTTO IL SITO + OGGETTI CHE FLUTTUANO
+========================= */
+body {
+  color: #c9d4de;
+  background-color: #0b172a;
+  background-image: radial-gradient(#27456a 1.1px, transparent 1.1px);
+  background-size: 26px 26px;
+  background-attachment: fixed;
+}
+body > *:not(.bg-float):not(.cookie-banner) { position: relative; z-index: 1; }
+.topbar { position: sticky; }
+h1, h2, h3, .fx-card h3, .tl-card h3, .cmp tbody th { color: #fff; }
+h2 span, h2 em { color: #5edbb4; }
+p, .lead, .split-copy p, .feature-card p, .step-card p, .fx-card details p, .tl-sub, .tl-note, .manual-section p, .contact-card p, .faq p { color: #a9b8c6; }
+.section-label { color: #5edbb4; }
+.text-link { color: #5edbb4; }
+.check-list { color: #c9d4de; }
+
+.trust-strip { background: rgba(7,18,33,.72); backdrop-filter: blur(6px); border-top: 1px solid #1f3552; border-bottom: 1px solid #1f3552; }
+.features-section, .how-it-works, .intro, .privacy, .faq, .pricing { background: transparent; }
+
+.feature-card, .step-card, .fx-card, .tl-card, .contact-card, .privacy-card, .faq details, .price-card {
+  background: rgba(16,38,63,.78); border: 1px solid #22405e; color: #c9d4de; backdrop-filter: blur(4px);
+}
+.feature-card:hover, .step-card:hover { border-color: #2f6b64; box-shadow: 0 18px 44px rgba(34,183,127,.14); }
+.feature-card.featured { background: linear-gradient(145deg, rgba(24,164,122,.28), rgba(16,38,63,.9)); border-color: #2f8f76; }
+.feature-card.featured p { color: #d6e4f0; }
+.icon, .mini-icon { background: rgba(24,164,122,.18); color: #5edbb4; }
+.step-number { color: #5edbb4; }
+.feature-card h3, .step-card h3 { color: #fff; }
+
+.split-image { border-color: #22405e; box-shadow: 0 20px 60px rgba(34,183,127,.12); }
+.video-section { background: rgba(7,18,33,.55); }
+.manual-section { background: rgba(7,18,33,.55); border-top: 1px solid #1f3552; border-bottom: 1px solid #1f3552; }
+.manual-section a { background: var(--green); }
+.tools-section { background: rgba(7,18,33,.45); border-top: 1px solid #1f3552; border-bottom: 1px solid #1f3552; }
+.privacy-card h2, .privacy-card h3 { color: #fff; }
+.privacy-card p, .privacy-card li { color: #a9b8c6; }
+
+.fx-card details { background: transparent; border: 0; border-top: 1px solid #22405e; border-radius: 0; backdrop-filter: none; }
+.fx-card summary, .faq summary { color: #e6eef7; }
+.faq details { padding-left: 22px; padding-right: 22px; }
+.faq summary { color: #fff; }
+
+.tl-card label, .ct-form label { color: #a9b8c6; }
+.tl-card input[type=text], .tl-card textarea, .ct-form input, .ct-form textarea, .ct-form select {
+  background: #0b172a; border-color: #2f4f75; color: #fff; }
+.tl-card input:focus, .tl-card textarea:focus, .ct-form input:focus, .ct-form textarea:focus, .ct-form select:focus { outline-color: #5edbb4; }
+.tl-result { background: rgba(24,164,122,.15); border: 1px solid #2f8f76; }
+.tl-r1, .tl-r2 { color: #c9d4de; }
+.tl-big { color: #5edbb4; }
+.tl-count { color: #5edbb4; }
+
+.cmp { background: rgba(16,38,63,.78); border-color: #22405e; }
+.cmp th, .cmp td { border-bottom-color: #22405e; }
+.cmp thead th { background: rgba(7,18,33,.6); color: #a9b8c6; }
+.cmp td { color: #c9d4de; }
+.cmp .cmp-us { background: rgba(24,164,122,.2); color: #5edbb4; }
+
+.fd-card { background: linear-gradient(135deg, rgba(24,164,122,.22), rgba(16,38,63,.9)); border: 1px solid #2f8f76; }
+.contact { background: transparent; }
+.ct-chip { background: #0b172a; border-color: #2f4f75; color: #5edbb4; }
+.ct-chip:hover { background: rgba(24,164,122,.2); }
+
+.btn-secondary { background: transparent; color: #fff; border: 2px solid #3c5878; }
+.btn-secondary:hover { border-color: #5edbb4; }
+.btn-primary { background: #22b77f; color: #0b2a22; }
+.price-card .btn { color: #0b2a22; }
+.price-card, .price-card p, .price-list li { color: #c9d4de; }
+.cta-section { background: linear-gradient(135deg, #0f6e5b, #0b3a4a); }
+
+/* oggetti che fluttuano su tutto il sito */
+.bg-float { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+.bg-float .orb { position: absolute; border-radius: 50%; filter: blur(90px); opacity: .35; animation: jd-drift 16s ease-in-out infinite; }
+.bg-float .o1 { width: 420px; height: 420px; left: -120px; top: 18%; background: #18a47a; }
+.bg-float .o2 { width: 360px; height: 360px; right: -100px; top: 55%; background: #2a6fdb; animation-delay: -6s; opacity: .28; }
+.bg-float .o3 { width: 300px; height: 300px; left: 40%; bottom: -140px; background: #18a47a; animation-delay: -10s; opacity: .25; }
+.bg-float .fchip { position: absolute; opacity: .55; padding: 7px 12px; border-radius: 14px; background: rgba(18,42,71,.85); border: 1px solid #2f4f75; color: #bfe9dc; font: 700 12px "DM Sans", sans-serif; box-shadow: 0 10px 30px rgba(0,0,0,.3); animation: jd-bob 8s ease-in-out infinite; }
+.bg-float .c1 { left: .8%; top: 30%; }
+.bg-float .c2 { right: .8%; top: 22%; animation-delay: -2s; }
+.bg-float .c3 { left: .8%; top: 68%; animation-delay: -4s; }
+.bg-float .c4 { right: .8%; top: 74%; animation-delay: -6s; }
+.bg-float .c5 { right: .8%; top: 46%; animation-delay: -3s; }
+@keyframes jd-drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(40px,-50px); } }
+@media (max-width: 1350px) { .bg-float .fchip { display: none; } }
+@media (prefers-reduced-motion: reduce) { .bg-float .orb, .bg-float .fchip { animation: none; } }
+
 .split-image img { height: auto; display: block; }
