@@ -3,24 +3,28 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jobdeskcrm.com/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/" />
   </url>
   <url>
     <loc>https://jobdeskcrm.com/en/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/" />
   </url>
   <url>
     <loc>https://jobdeskcrm.com/guide/gestire-candidati-con-excel/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/gestire-candidati-con-excel/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/manage-candidates-excel/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/gestire-candidati-con-excel/" />
   </url>
   <url>
     <loc>https://jobdeskcrm.com/en/guides/manage-candidates-excel/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/gestire-candidati-con-excel/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/manage-candidates-excel/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/gestire-candidati-con-excel/" />
@@ -39,15 +43,31 @@
   </url>
   <url>
     <loc>https://jobdeskcrm.com/guide/messaggi-linkedin-recruiter/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/messaggi-linkedin-recruiter/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/linkedin-messages-recruiters/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/messaggi-linkedin-recruiter/" />
   </url>
   <url>
     <loc>https://jobdeskcrm.com/en/guides/linkedin-messages-recruiters/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/messaggi-linkedin-recruiter/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/linkedin-messages-recruiters/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/messaggi-linkedin-recruiter/" />
+  </url>
+  <url>
+    <loc>https://jobdeskcrm.com/guide/ricerca-xray-linkedin-recruiter/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/ricerca-xray-linkedin-recruiter/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/xray-search-linkedin-recruiters/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/ricerca-xray-linkedin-recruiter/" />
+  </url>
+  <url>
+    <loc>https://jobdeskcrm.com/en/guides/xray-search-linkedin-recruiters/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/ricerca-xray-linkedin-recruiter/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/xray-search-linkedin-recruiters/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/ricerca-xray-linkedin-recruiter/" />
   </url>
   <url>
     <loc>https://jobdeskcrm.com/gioco/pipeline-rush/</loc>
@@ -66,40 +86,47 @@
   </url>
   <url>
     <loc>https://jobdeskcrm.com/guide/gestire-candidati/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/gestire-candidati/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/manage-candidates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/gestire-candidati/" />
   </url>
   <url>
     <loc>https://jobdeskcrm.com/en/guides/manage-candidates/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/gestire-candidati/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/manage-candidates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/gestire-candidati/" />
   </url>
   <url>
     <loc>https://jobdeskcrm.com/guide/pipeline-di-selezione/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/recruiting-pipeline-stages/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/" />
   </url>
   <url>
     <loc>https://jobdeskcrm.com/en/guides/recruiting-pipeline-stages/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jobdeskcrm.com/en/guides/recruiting-pipeline-stages/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/pipeline-di-selezione/" />
   </url>
   <url>
     <loc>https://jobdeskcrm.com/guide/gestire-candidature-senza-excel/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/gestire-candidature-senza-excel/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/gestire-candidature-senza-excel/" />
   </url>
   <url>
     <loc>https://jobdeskcrm.com/guide/modelli-messaggi-candidati/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/modelli-messaggi-candidati/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/modelli-messaggi-candidati/" />
   </url>
   <url>
     <loc>https://jobdeskcrm.com/guide/scrivere-annuncio-di-lavoro/</loc>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="it" href="https://jobdeskcrm.com/guide/scrivere-annuncio-di-lavoro/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jobdeskcrm.com/guide/scrivere-annuncio-di-lavoro/" />
   </url>
